@@ -6,5 +6,6 @@ CREATE TABLE [dbo].[RegisterUser] (
     [registeruser_createdon]   DATETIME     NULL,
     [registeruser_modifiedon] DATETIME     NULL,
     [registeruser_rowstate]   TINYINT      NULL,
-    PRIMARY KEY CLUSTERED ([registeruser_id] ASC)
+    
+    PRIMARY  KEY CLUSTERED ([registeruser_id] ASC)
 );
