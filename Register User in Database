@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[RegisterUser] (
     [registeruser_password]   VARCHAR (20) NULL,
     [registeruser_createdon]   DATETIME     NULL,
     [registeruser_modifiedon] DATETIME     NULL,
-    [registeruser_rowstate]   TINYINT      NULL,
+    [registeruser_rowstate]   TINYINT       NULL,
     
     PRIMARY  KEY CLUSTERED ([registeruser_id] ASC)
 );
