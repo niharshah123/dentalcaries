@@ -9,6 +9,7 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+    
         RegularExpressionValidator reg = new RegularExpressionValidator();
         reg.ID = "RegularExpressionValidator1";
         reg.ControlToValidate = "TextBox1";
