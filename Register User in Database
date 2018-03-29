@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[RegisterUser] (
     [registeruser_id]         INT            NOT NULL,
     [registeruser_username]    VARCHAR (50)  NULL,
-    [registeruser_email]      VARCHAR (50)  NULL,
+    [registeruser_email]      VARCHAR (50)   NULL,
     [registeruser_password]   VARCHAR (20)  NULL,
     [registeruser_createdon]   DATETIME     NULL,
     [registeruser_modifiedon] DATETIME      NULL,
