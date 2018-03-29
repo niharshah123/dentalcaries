@@ -5,7 +5,7 @@ CREATE TABLE [dbo].[UserInformation] (
     [FirstName] VARCHAR (50)  NULL,
     [LastName]  VARCHAR (50)  NULL,
     [Email]     VARCHAR (50)  NULL,
-    [PhoneNo]   VARCHAR (50)  NULL,
+    [PhoneNo]   VARCHAR (50)   NULL,
     [Location]  VARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([UserId] ASC)
 );
